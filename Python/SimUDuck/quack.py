@@ -1,6 +1,6 @@
 class QuackBehavior:
     def quack(self):
-        pass
+        raise NotImplementedError
 
 
 class Quack(QuackBehavior):

@@ -1,6 +1,6 @@
 class FlyBehavior:
     def fly(self):
-        pass
+        raise NotImplementedError
 
 
 class FlyWithWings(FlyBehavior):
